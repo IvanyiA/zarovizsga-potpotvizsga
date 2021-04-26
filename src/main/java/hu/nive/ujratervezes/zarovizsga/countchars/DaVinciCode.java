@@ -32,8 +32,8 @@ public class DaVinciCode {
         String line;
         int counter = 0;
         while ((line = reader.readLine()) != null) {
-            for (Character c : line.toCharArray()) {
-                if (c.equals(searchedChar)) {
+            for (Character act : line.toCharArray()) {
+                if (act.equals(searchedChar)) {
                     counter++;
                 }
             }
